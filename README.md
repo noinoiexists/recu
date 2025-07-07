@@ -35,7 +35,6 @@ The folder structure is also designed to serve as an [Obsidian](https://obsidian
  
 - Fill the form to submit a piece for consideration
 
----
 
 ### Using the Obsidian Vault
 
@@ -59,6 +58,6 @@ You can use this repository as an Obsidian vault for longform thinking and writi
 - Using the full website url is preferred while creating links. However, if you wish to link posts within the repo locally, do not use the `.md`. For example, to link to post-1.md, use `[](post-1)`. 
 - HTML is supported
 
-### LICENCE
+### Licence
  This repository is licenced under the Creative Commons Attribution 4.0 International Public Licence. You can read more about it in the [LICENCE](https://github.com/noinoiexists/recu/blob/main/LICENCE.md) file.
  You are free to use any content of Recu anywhere, while making sure to credit the author and provide a link.
