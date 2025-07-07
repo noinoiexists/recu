@@ -20,7 +20,7 @@ The folder structure is also designed to serve as an [Obsidian](https://obsidian
 
 ### How to Contribute
 
-#### 1. **Via GitHub **
+#### 1. Via GitHub 
 
 - Clone or fork the repo
   
@@ -29,7 +29,7 @@ The folder structure is also designed to serve as an [Obsidian](https://obsidian
 - Open a pull request for review
   
 
-#### 2. **Via the Website **
+#### 2. Via the Website 
 
 - Visit [recu.blog/publish](https://recu.blog/publish/)
  
