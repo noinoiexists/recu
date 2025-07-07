@@ -10,9 +10,9 @@ The folder structure is also designed to serve as an [Obsidian](https://obsidian
 
 ### Repository Structure
 
-- `posts/` – All Markdown posts (one per file)
-
 - `.obsidian/` – Obsidian configuration, community plugins, and workspace state
+
+- `posts/` – All Markdown posts (one per file)
 
 - `templates/` – Templater-compatible starter templates for writing new posts
 
@@ -55,5 +55,10 @@ You can use this repository as an Obsidian vault for longform thinking and writi
 ### Writing Guidelines
 
 - Make sure to read the [guidelines](https://recu.blog/publish/) on the website before submitting
-- Do not use any plugin-specific code in the markdown as they will not be rendered
+- Do not use any Obsidian-specific code (such as wikilinks, dataview, etc.) in the markdown as they will not be rendered
+- Using the full website url is preferred while creating links. However, if you wish to link posts within the repo locally, do not use the `.md`. For example, to link to post-1.md, use `[](post-1)`. 
+- HTML is supported
 
+### LICENCE
+ This repository is licenced under the Creative Commons Attribution 4.0 International Public Licence. You can read more about it in the [LICENCE](https://github.com/noinoiexists/recu/blob/main/LICENCE.md) file.
+ You are free to use any content of Recu anywhere, while making sure to credit the author and provide a link.
