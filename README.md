@@ -2,7 +2,7 @@
 ### Overview
 
 This is the source repository for [Recu](https://recu.blog).
-All published content on the site originates from Markdown files in this repository.
+All published content on the site originates from markdown files in this repository.
 
 The folder structure is also designed to serve as an [Obsidian](https://obsidian.md) vault, making it easy for contributors to write, think, and refine posts in a local knowledge environment.
 
@@ -19,6 +19,7 @@ The folder structure is also designed to serve as an [Obsidian](https://obsidian
 
 
 ### How to Contribute
+You can add posts to Recu either directly on github **or** through the website.
 
 #### 1. Via GitHub 
 
@@ -47,16 +48,13 @@ You can use this repository as an Obsidian vault for longform thinking and writi
 - Vault can be opened directly after cloning
  
 
-
-
-
-
 ### Writing Guidelines
 
 - Make sure to read the [guidelines](https://recu.blog/publish/) on the website before submitting
 - Do not use any Obsidian-specific code (such as wikilinks, dataview, etc.) in the markdown as they will not be rendered
 - Using the full website url is preferred while creating links. However, if you wish to link posts within the repo locally, do not use the `.md`. For example, to link to post-1.md, use `[](post-1)`. 
 - HTML is supported
+- You must add all required yaml frontmatter in your markdown file. Refer other posts for the format.
 
 ### Licence
  This repository is licenced under the Creative Commons Attribution 4.0 International Public Licence. You can read more about it in the [LICENCE](https://github.com/noinoiexists/recu/blob/main/LICENCE.md) file.
