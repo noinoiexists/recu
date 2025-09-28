@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Bit Flip Cipher.md",
+                "file": "posts/_index.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Bit Flip Cipher"
+              "title": "_index"
             }
           },
           {
@@ -185,8 +185,8 @@
   },
   "active": "ee510fea358b4e36",
   "lastOpenFiles": [
-    "posts/Fibonacci LFSR.md",
     "posts/Bit Flip Cipher.md",
+    "posts/Fibonacci LFSR.md",
     "images/post/fibonacci-lfsr/thumbnail.png",
     "images/post/Bit Flip Cipher/thumbnail.jpg",
     "posts/_index.md",
