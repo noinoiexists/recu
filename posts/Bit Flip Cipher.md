@@ -1,7 +1,7 @@
 ---
 title: "Bit Flip Cipher: My First Attempt at Making a Cipher"
 description: A simple symmetric cipher I built for fun using SHA-256 and XOR, and why it’s definitely not secure.
-image: images/post/Bit Flip Cipher/thumbnail.jpg
+image: images/post/bit-flip-cipher/thumbnail.jpg
 authors:
   - Nithik R
 date: 2025-09-28T15:00:00+05:30
@@ -50,7 +50,7 @@ Still, making it gave me a feel for how stream ciphers work: taking a key, stret
 
 ## Weaknesses and Attacks
 
-- **Frequency Analysis:** Since the main idea of this cipher is to XOR a 32-byte long hash in a repeating fashion, every 32 bytes, the character is encrypted using the same byte. If the original plaintext was just an English text, the statistical properties of the language itself are not hidden well enough by this cipher and we can apply frequency analysis on the sets of bytes of positions $i$, $i+32$, $i+64 ...$
+- **Frequency Analysis:** Since the main idea of this cipher is to XOR a 32-byte long hash in a repeating fashion, every 32 bytes, the character is encrypted using the same byte. If the original plaintext was just an English text, the statistical properties of the language itself are not hidden well enough by this cipher and we can apply frequency analysis on the sets of bytes of positions $i$, $i+32$, $i+64 ...$ You can read my post on frequency analysis [here](https://recu.blog/posts/frequency-analysis-on-repeating-key-xor/).
 - **Keystream Reuse**: Encrypting multiple messages with the same key always produces the same keystream. XORing two ciphertexts together cancels out the keystream and reveals relationships between the plaintexts. 
 - **Short Keystream Length**: With only 32 bytes before repeating, the cipher leaks structure very quickly compared to modern ciphers whose keystreams *effectively* never repeat.
 

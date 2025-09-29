@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/_index.md",
-                "mode": "preview",
+                "file": "templates/New post.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "New post"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Fibonacci LFSR.md",
-                "mode": "source",
+                "file": "posts/Frequency Analysis on Repeating-key XOR.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Fibonacci LFSR"
+              "title": "Frequency Analysis on Repeating-key XOR"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,33 +181,42 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "ee510fea358b4e36",
+  "active": "b887c82bb6a6d674",
   "lastOpenFiles": [
     "posts/Bit Flip Cipher.md",
-    "posts/Fibonacci LFSR.md",
-    "images/post/fibonacci-lfsr/thumbnail.png",
-    "images/post/Bit Flip Cipher/thumbnail.jpg",
+    "posts/Frequency Analysis on Repeating-key XOR.md",
+    "images/post/frequency-analysis/thumbnail.png",
+    "images/post/frequency-analysis/Screenshot 2025-09-29 at 14.11.28.png",
+    "images/promotion.png",
+    "images/post/frequency-analysis",
+    "images/map.png",
+    "images/logo.png",
+    "images/footer-bg-shape.svg",
+    "images/favicon.png",
+    "images/banner-bg-shape.svg",
+    "images/banner.png",
     "posts/_index.md",
-    "images/post/Bit Flip Cipher",
+    "templates/Add image.md",
+    "posts/ds.md",
+    "templates/New post.md",
+    "README.md",
+    "posts/Name of the BLog Post.md",
+    "posts/Name of the Post.md",
+    "posts/Fibonacci LFSR.md",
+    "templates",
+    "images/post/fibonacci-lfsr/thumbnail.png",
+    "images/post/bit-flip-cipher",
     "images/post/Untitled.md",
     "images/post/fibonacci-lfsr",
-    "images/post/post-1/fibonacci-lfsr.png",
-    "images/post/post-1/pic1.png",
-    "images/post/post-1/pic3.png",
-    "images/post/post-1/pic4.png",
-    "images/post/post-8.png",
-    "images/post/post-3.png",
-    "images/post/post-2.png",
-    "images/post/post-1.png",
     "posts/post-5.md",
     "images/post/post-1",
     "images/post",
     "images",
     "posts/post-4.md",
-    "posts/post-3.md",
-    "README.md"
+    "posts/post-3.md"
   ]
 }

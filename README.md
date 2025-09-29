@@ -1,10 +1,12 @@
 
 ### Overview
 
-This is the source repository for [Recu](https://recu.blog).
+This is the source repository for my personal website [Recu](https://recu.blog).
 All published content on the site originates from markdown files in this repository.
 
-The folder structure is also designed to serve as an [Obsidian](https://obsidian.md) vault, making it easy for contributors to write, think, and refine posts in a local knowledge environment.
+Recu is simply an experiment - a place to set down some of those thoughts whenever I feel like it, and to see how they change with time.
+
+The folder structure of this repository is designed to serve as an [Obsidian](https://obsidian.md) vault, making it easy to write, think, and refine posts in a local knowledge environment.
 
 
 
@@ -14,48 +16,17 @@ The folder structure is also designed to serve as an [Obsidian](https://obsidian
 
 - `posts/` – All Markdown posts (one per file)
 
+- `images/` - Images used on the website
+
 - `templates/` – Templater-compatible starter templates for writing new posts
 
 
 
-### How to Contribute
-You can add posts to Recu either directly on github **or** through the website.
+### Contribute
+Although Recu began as a personal website for myself, I believe that an _exchange_ of thoughts is necessary for clarity. That’s what the ’e’ in Recu stands for. I accept guest authors on this website. If you carry a thought that’s taken time to mature, you are welcome to bring it here.
 
-#### 1. Via GitHub 
-
-- Clone or fork the repo
-  
-- Add or edit `.md` files under `/posts`
- 
-- Open a pull request for review
-  
-
-#### 2. Via the Website 
-
-- Visit [recu.blog/publish](https://recu.blog/publish/)
- 
-- Fill the form to submit a piece for consideration
-
-
-### Using the Obsidian Vault
-
-You can use this repository as an Obsidian vault for longform thinking and writing. Ideal for contributors who prefer writing with local context and are comfortable with the Obsidian environment.
-
-- Style settings have been configured to mimic the actual website
-
-- Plugins like **Templater** are pre-configured
-
-- Vault can be opened directly after cloning
- 
-
-### Writing Guidelines
-
-- Make sure to read the [guidelines](https://recu.blog/publish/) on the website before submitting
-- Do not use any Obsidian-specific code (such as wikilinks, dataview, etc.) in the markdown as they will not be rendered
-- Using the full website url is preferred while creating links. However, if you wish to link posts within the repo locally, do not use the `.md`. For example, to link to post-1.md, use `[](post-1)`. 
-- HTML is supported
-- You must add all required yaml frontmatter in your markdown file. Refer other posts for the format.
+You can add posts to Recu either by directly making a pull request on GitHub **or** by visiting [recu.blog/publish](https://recu.blog/publish/).
 
 ### Licence
  This repository is licenced under the Creative Commons Attribution 4.0 International Public Licence. You can read more about it in the [LICENCE](https://github.com/noinoiexists/recu/blob/main/LICENCE.md) file.
- You are free to use any content of Recu anywhere, while making sure to credit the author and provide a link.
+ You are free to use any content of Recu anywhere, while making sure to credit me and to provide a link.
