@@ -1,7 +1,7 @@
 from Crypto.Util.number import getPrime
 import random
 
-FLAG = "citadel{7h3_m4tr1x_i5_4_li3_4nd_50_wa5_1}"
+from secret import FLAG
 
 assert len(FLAG) == 41
 assert FLAG[:8] == 'citadel{'
