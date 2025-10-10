@@ -18,7 +18,9 @@ The folder structure of this repository is designed to serve as an [Obsidian](ht
 
 - `images/` - Images used on the website
 
-- `templates/` – Templater-compatible starter templates for writing new posts
+- `files/` - Some files linked to in the posts 
+
+- `templates/` – Templater-compatible templates
 
 
 

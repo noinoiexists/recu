@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Solving \"The Cake is a Matrix\"– a CitadelCTF 2025 Challenge.md",
-                "mode": "source",
+                "file": "posts/The Cake is a Matrix – a CitadelCTF 2025 Challenge.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Solving \"The Cake is a Matrix\"– a CitadelCTF 2025 Challenge"
-            }
-          },
-          {
-            "id": "0aab90f21603d2fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/Frequency Analysis on Repeating-key XOR.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Frequency Analysis on Repeating-key XOR"
+              "title": "The Cake is a Matrix – a CitadelCTF 2025 Challenge"
             }
           }
         ]
@@ -186,21 +172,21 @@
   },
   "active": "ee510fea358b4e36",
   "lastOpenFiles": [
-    "files/solving-the-cake-is-a-matrix-a-citadel-2025-challenge/solve.py",
-    "files/solving-the-cake-is-a-matrix-a-citadel-2025-challenge/server.py",
-    "files/solving-the-cake-is-a-matrix-a-citadel-2025-challenge",
+    "README.md",
+    "posts/Frequency Analysis on Repeating-key XOR.md",
+    "posts/The Cake is a Matrix – a CitadelCTF 2025 Challenge.md",
+    "files/the-cake-is-a-matrix-a-citadel-2025-challenge/solve.py",
+    "files/the-cake-is-a-matrix-a-citadel-2025-challenge/server.py",
+    "files/the-cake-is-a-matrix-a-citadel-2025-challenge",
     "files/untitled folder",
     "files/server.py",
     "files/the_cake_is_a_matrix_server.py",
     "files/solve.py",
     "files",
     "untitled folder",
-    "images/post/solving-the-cake-is-a-matrix-a-citadel-2025-challenge/thumbnail.png",
-    "images/post/solving-the-cake-is-a-matrix-a-citadel-2025-challenge",
+    "images/post/the-cake-is-a-matrix-a-citadel-2025-challenge/thumbnail.png",
+    "images/post/the-cake-is-a-matrix-a-citadel-2025-challenge",
     "images/post/Solving The Cake is a Matrix – a CitadelCTF 2025 Challenge/thumbnail.png",
-    "images/post/Solving The Cake is a Matrix – a CitadelCTF 2025 Challenge",
-    "posts/Frequency Analysis on Repeating-key XOR.md",
-    "posts/Solving \"The Cake is a Matrix\"– a CitadelCTF 2025 Challenge.md",
     "images/post/Solving “The Cake is a Matrix” – a CitadelCTF 2025 Challenge/thumbnail.png",
     "images/post/Solving “The Cake is a Matrix” – a CitadelCTF 2025 Challenge/Gemini_Generated_Image_wz3xiowz3xiowz3x.png",
     "posts/Bit Flip Cipher.md",
@@ -214,7 +200,6 @@
     "posts/_index.md",
     "templates/Add image.md",
     "posts/ds.md",
-    "README.md",
     "posts/Name of the BLog Post.md",
     "posts/Name of the Post.md",
     "posts/Fibonacci LFSR.md",
