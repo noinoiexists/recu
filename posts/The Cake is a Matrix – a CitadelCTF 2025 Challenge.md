@@ -24,7 +24,7 @@ In this writeup I'll go through my thought process and solution for the challeng
 
 > You enter this floor to find a vast dining hall, sterile and impossibly clean. At the head of the table sits a towering mechanical guardian, cables coiled like a throne, her single glowing eye fixed on you. 
 On her plate there seems to be a matrix of symbols masquerading as dessert that are generated from a program beside her. Her voice floats across the hall, sweet and mocking: *“Go on… eat. I insist. The cake is… well, something else entirely.”* Maybe by deciphering the matrix, you might unlock the key to the next floor?
-[server.py](https://github.com/noinoiexists/recu/blob/main/files/solving-the-cake-is-a-matrix-a-citadel-2025-challenge/server.py)
+[server.py](https://github.com/noinoiexists/recu/blob/main/files/the-cake-is-a-matrix-a-citadel-2025-challenge/server.py)
 
 ---
 
@@ -55,7 +55,7 @@ The server lets us input 56 queries which is exactly the dimension of the subspa
 
 Once we have the inverse, $weee(subflag_i)\equiv key^{-1}*enc_i \ \ (mod\ p)$. Then we just reverse $weee$ by representing the 64 bits as 8 bytes and put together the four $subflag$s to obtain $flag$.
 
-The python code for this solution can be found [here](https://github.com/noinoiexists/recu/blob/main/files/solving-the-cake-is-a-matrix-a-citadel-2025-challenge/solve.py).
+The python code for this solution can be found [here](https://github.com/noinoiexists/recu/blob/main/files/the-cake-is-a-matrix-a-citadel-2025-challenge/solve.py).
 
 ---
 
