@@ -47,9 +47,9 @@ Then it allows input of an 8-byte strings $s$ and outputs $multiply(key,\ weee(s
 ## The Exploit
 We know that $enc_i \equiv key * weee(subflag_i)\ \ (mod\ p)$, which means that to find $weee(subflag_i)$ we need to find $key^{-1}$. After that, to obtain $subflag_i$ we just need to reverse $weee$, which is relatively easy.
 
-In general a 64×64 matrix needs 64 independent columns to invert; but since flag plaintexts occupy only a 56-dimensional subspace (MSBs fixed), we cannot find $key^{-1}$.
+In general a 64×64 matrix needs 64 independent columns to invert; but since we get only 56 queries, we cannot find $key^{-1}$.
 
-However, we notice that for typical ASCII characters, when expressed in 8-bits, the MSB (most significant bit) is 0. This is an interesting observation as this means that when the function $weee$ expands the 8-byte string to 64 bits, 8 of the bits are fixed to be 0. We just need to find the inverse of $key$ restricted within this subspace.
+However, we notice that for typical ASCII characters, which have a maximum value of 127, when expressed in 8-bits, the MSB (most significant bit) is 0. This is an interesting observation as this means that when the function $weee$ expands the 8-byte string to 64 bits, 8 of the bits are fixed to be 0. We just need to find the inverse of $key$ restricted within this 56-dimensional subspace.
 
 The server lets us input 56 queries which is exactly the dimension of the subspace. We can apply [Gauss Jordan Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination#Finding_the_inverse_of_a_matrix) with these 56 sets of outputs to find the inverse of $key$.
 

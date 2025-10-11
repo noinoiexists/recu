@@ -1,5 +1,3 @@
-
-
 from pwn import *
 import random
 import string
