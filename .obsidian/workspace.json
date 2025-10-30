@@ -11,10 +11,14 @@
             "id": "383cd3d8e832b5da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "posts/Understanding Modular Binomials in Cryptography.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Understanding Modular Binomials in Cryptography"
             }
           }
         ]
@@ -166,11 +170,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "383cd3d8e832b5da",
+  "active": "040f9167b59d7a14",
   "lastOpenFiles": [
+    "images/post/understanding-modular-binomials-in-cryptography/thumbnail.png",
+    "images/post/understanding-modular-binomials-in-cryptography/thumbnail.png",
+    "posts/Understanding Modular Binomials in Cryptography.md",
+    "images/post/understanding-modular-binomials-in-cryptography",
+    "posts/Frequency Analysis on Repeating-key XOR.md",
+    "posts/Fibonacci LFSR.md",
+    "posts/Untitled",
     "posts/The Cake is a Matrix – a CitadelCTF 2025 Challenge.md",
     "README.md",
-    "posts/Frequency Analysis on Repeating-key XOR.md",
     "files/the-cake-is-a-matrix-a-citadel-2025-challenge/solve.py",
     "files/the-cake-is-a-matrix-a-citadel-2025-challenge/server.py",
     "files/the-cake-is-a-matrix-a-citadel-2025-challenge",
@@ -179,9 +189,7 @@
     "files/the_cake_is_a_matrix_server.py",
     "files/solve.py",
     "files",
-    "untitled folder",
     "images/post/the-cake-is-a-matrix-a-citadel-2025-challenge/thumbnail.png",
-    "images/post/the-cake-is-a-matrix-a-citadel-2025-challenge",
     "images/post/Solving The Cake is a Matrix – a CitadelCTF 2025 Challenge/thumbnail.png",
     "images/post/Solving “The Cake is a Matrix” – a CitadelCTF 2025 Challenge/thumbnail.png",
     "images/post/Solving “The Cake is a Matrix” – a CitadelCTF 2025 Challenge/Gemini_Generated_Image_wz3xiowz3xiowz3x.png",
@@ -192,13 +200,11 @@
     "images/promotion.png",
     "images/map.png",
     "images/logo.png",
-    "images/footer-bg-shape.svg",
     "posts/_index.md",
     "templates/Add image.md",
     "posts/ds.md",
     "posts/Name of the BLog Post.md",
     "posts/Name of the Post.md",
-    "posts/Fibonacci LFSR.md",
     "images/post/Untitled.md",
     "posts/post-5.md",
     "posts/post-4.md",
