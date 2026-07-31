@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b74d7fceab979d36",
+        "id": "96b87750f1220a5e",
         "type": "tabs",
         "children": [
           {
-            "id": "383cd3d8e832b5da",
+            "id": "34f509582d62c774",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Understanding Modular Binomials in Cryptography.md",
+                "file": "posts/The Cake is a Matrix – a CitadelCTF 2025 Challenge.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Understanding Modular Binomials in Cryptography"
+              "title": "The Cake is a Matrix – a CitadelCTF 2025 Challenge"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "199d749e52847d33",
@@ -170,16 +170,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "040f9167b59d7a14",
+  "active": "34f509582d62c774",
   "lastOpenFiles": [
-    "images/post/understanding-modular-binomials-in-cryptography/thumbnail.png",
-    "images/post/understanding-modular-binomials-in-cryptography/thumbnail.png",
+    "posts/Privilege Escalation via Buffer Overflow – Case Study on Narnia.md",
+    "posts/The Cake is a Matrix – a CitadelCTF 2025 Challenge.md",
     "posts/Understanding Modular Binomials in Cryptography.md",
-    "images/post/understanding-modular-binomials-in-cryptography",
+    "posts/Bit Flip Cipher.md",
     "posts/Frequency Analysis on Repeating-key XOR.md",
+    "images/post/privilege-escalation-via-buffer-overflow-case-study-on-narnia/thumbnail.png",
+    "images/post/buffer-overflow-exploit/C-memlayout.svg",
+    "images/post/privilege-escalation-via-buffer-overflow-case-study-on-narnia",
+    "images/post/understanding-modular-binomials-in-cryptography/thumbnail.png",
+    "images/post/understanding-modular-binomials-in-cryptography/thumbnail.png",
+    "images/post/understanding-modular-binomials-in-cryptography",
     "posts/Fibonacci LFSR.md",
     "posts/Untitled",
-    "posts/The Cake is a Matrix – a CitadelCTF 2025 Challenge.md",
     "README.md",
     "files/the-cake-is-a-matrix-a-citadel-2025-challenge/solve.py",
     "files/the-cake-is-a-matrix-a-citadel-2025-challenge/server.py",
@@ -188,18 +193,13 @@
     "files/server.py",
     "files/the_cake_is_a_matrix_server.py",
     "files/solve.py",
-    "files",
     "images/post/the-cake-is-a-matrix-a-citadel-2025-challenge/thumbnail.png",
     "images/post/Solving The Cake is a Matrix – a CitadelCTF 2025 Challenge/thumbnail.png",
     "images/post/Solving “The Cake is a Matrix” – a CitadelCTF 2025 Challenge/thumbnail.png",
     "images/post/Solving “The Cake is a Matrix” – a CitadelCTF 2025 Challenge/Gemini_Generated_Image_wz3xiowz3xiowz3x.png",
-    "posts/Bit Flip Cipher.md",
     "templates/New post.md",
     "images/post/frequency-analysis/thumbnail.png",
     "images/post/frequency-analysis/Screenshot 2025-09-29 at 14.11.28.png",
-    "images/promotion.png",
-    "images/map.png",
-    "images/logo.png",
     "posts/_index.md",
     "templates/Add image.md",
     "posts/ds.md",

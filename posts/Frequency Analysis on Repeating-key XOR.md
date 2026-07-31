@@ -11,7 +11,6 @@ tags:
   - XOR
   - Stream Cipher
   - Attack
-postType: featured
 draft: false
 ---
 
@@ -23,7 +22,7 @@ Repeating-key XOR is a simple, yet good exercise to learn how structure betrays 
 
 ## What is Repeating-key XOR
 
-It is a simple encryption method where each byte of the plaintext is XORed with a key, and when the key runs out, it loops from the beginning. For example, if the key is three bytes long and the message is nine bytes long, the key is repeated three times such that every plaintext byte has a corresponding key byte. This makes the cipher easy to apply. 
+It is a simple encryption method where each byte of the plaintext is XORed with a key, and when the key runs out, it loops from the beginning. For example, if the key is three bytes long and the message is nine bytes long, the key is repeated three times such that every plaintext byte has a corresponding key byte. This makes the cipher easy to apply.
 
 Since the key cycles in a fixed pattern, the same positions in the message are always affected by the same key bytes and it is this repetition that makes the scheme vulnerable to statistical attacks. One way of analysing the statistical properties of the ciphertext is to apply frequency analysis.
 
@@ -60,13 +59,13 @@ Rearrange the resultant bytes with highest scores, to undo the transpose done ea
 
 The cipher I built months back, the [Bit Flip Cipher](https://recu.blog/posts/bit-flip-cipher/) uses `SHA256` (32 bytes) as a deterministic keystream and repeats it across the message. That construction is, for the purposes of this attack, indistinguishable from a fixed 32-byte repeating key.
 
-SHA-256 gives good pseudorandomness, but in this implementation **it does not remove repetition**. So, the Bit Flip Cipher can be broken in the same way.  
+SHA-256 gives good pseudorandomness, but in this implementation **it does not remove repetition**. So, the Bit Flip Cipher can be broken in the same way.
 
 The digest being pseudorandom makes it harder to find the original key used, but the ciphertext is still unsecure. If the message is long enough, frequency analysis reveals the keystream bytes and the ciphertext bytes.
 
 ---
 
-## Defence 
+## Defence
 
 - Never repeat a keystream across message bytes.
 - Use a cipher with unique nonces (ChaCha20-Poly1305, AES-GCM).
@@ -75,5 +74,4 @@ The digest being pseudorandom makes it harder to find the original key used, but
 
 ---
 
-Repeating-key XOR is a clean lens into why modern cryptography emphasises randomness and non-repetition. 
-
+Repeating-key XOR is a clean lens into why modern cryptography emphasises randomness and non-repetition.

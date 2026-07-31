@@ -1,5 +1,5 @@
 ---
-title: The Cake is a Matrix – a CitadelCTF 2025 Challenge
+title: "The Cake is a Matrix: A CitadelCTF 2025 Challenge"
 description: My writeup for the CitadelCTF 2025 challenge, “The Cake is a Matrix”, by Cryptonite, MIT Manipal.
 image: images/post/the-cake-is-a-matrix-a-citadel-2025-challenge/thumbnail.png
 authors:
