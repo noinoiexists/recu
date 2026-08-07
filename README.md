@@ -18,14 +18,14 @@ The folder structure of this repository is designed to serve as an [Obsidian](ht
 
 - `images/` - Images used on the website
 
-- `files/` - Some files linked to in the posts 
+- `files/` - Some files linked to in the posts
 
 - `templates/` – Templater-compatible templates
 
 
 
 ### Contribute
-Although Recu began as a personal website for myself, I believe that an _exchange_ of thoughts is useful for clarity. That’s what the ’e’ in Recu stands for. I accept guest authors on this website. If you carry a thought that’s taken time to mature, you are welcome to bring it here.
+Although Recu began as a personal website for myself, I believe that an _exchange_ of thoughts is useful for clarity. I accept guest authors on this website. If you carry a thought that’s taken time to mature, you are welcome to bring it here.
 
 You can add posts to Recu either by directly making a pull request on GitHub **or** by visiting [recu.blog/publish](https://recu.blog/publish/).
 
