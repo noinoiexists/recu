@@ -12,7 +12,6 @@ tags:
   - Applied Mathematics
   - Linear Algebra
   - Cryptonite
-postType: featured
 draft: false
 ---
 
